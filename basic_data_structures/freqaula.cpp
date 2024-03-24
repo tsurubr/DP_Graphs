@@ -1,3 +1,7 @@
+/*
+  source: OBI 2012 (first phase)
+  topic: set
+*/
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

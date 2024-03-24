@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+title: Dynamic Programming Techniques in Graphs
+message: Undergraduate research (PDPD) repository
+type: software
+authors:
+  - given-names: Gabriel Alexandre
+    family-names: Guenta Tsurushima
+    email: protsuru@gmail.com
+    affiliation: Universidade Federal do ABC
+repository-code: 'https://github.com/tsurubr/DP_Graphs'
+keywords:
+  - graphs
+  - dynamic programming
+  - algorithms
+  - recursion

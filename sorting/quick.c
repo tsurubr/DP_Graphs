@@ -1,3 +1,4 @@
+// based on Paulo Feofiloff's course: https://www.ime.usp.br/~pf/algoritmos/
 #include <stdio.h> 
 
 static int separa(int v[], int p, int r){

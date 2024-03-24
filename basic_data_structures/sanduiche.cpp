@@ -1,3 +1,7 @@
+/*
+  source: OBI 2016 (first phase)
+  topic: map
+*/
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

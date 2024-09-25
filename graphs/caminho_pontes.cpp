@@ -35,7 +35,6 @@ void solve(){
 
 int main(){
   fast_io;
-  //int t; cin >> t; while(t--)
   solve();
 
   return 0;

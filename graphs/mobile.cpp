@@ -28,17 +28,16 @@ void solve(){
   bool ok = true;
 
   vector<pair<int, int>> vp(n+1);
-  for(int i = 0; i <= n; i++) {
+  for(int i = 0; i <= n; i++)
     vp[i] = {dist[i].value(), i};
-  }
+
 
   sort(vp.begin(), vp.end());
   int j = 0;
   for (int i = 1; i <= n; i++, j++) {
     if (vp[i].first != vp[j].first) continue;
-    if (graph[vp[j].second].size() != graph[vp[i].second].size()) {
+    if (graph[vp[j].second].size() != graph[vp[i].second].size())
       ok = false; break;
-    } 
   }
   cout << (ok? "bem" : "mal") << '\n';
 }
